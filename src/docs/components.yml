@@ -15,8 +15,8 @@ components:
           enum: [user, admin]
       example:
         id: 5ebac534954b54139806c112
-        email: pavel@phoenix.com
-        name: Pavel D.
+        email: test@test.com
+        name: Test D.
         role: user
 
     Token:

@@ -53,8 +53,8 @@ module.exports = router;
  *                 minLength: 8
  *                 description: At least one number and one letter
  *             example:
- *               name: Pavel D.
- *               email: pavel@phoenix.com
+ *               name: test D.
+ *               email: test@test.com
  *               password: password1
  *     responses:
  *       "201":
