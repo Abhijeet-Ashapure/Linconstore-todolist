@@ -5,6 +5,7 @@ const docsRoute = require('./docs.route');
 const config = require('../../config/config');
 
 const router = express.Router();
+const app = express();
 
 const defaultRoutes = [
   {
