@@ -7,8 +7,8 @@ I have build different projects similar to this so I would be reusing most of th
 Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/Abhijeet-Ashapure/erp-backend.git
-cd node-express-boilerplate
+git clone --depth 1 https://github.com/Abhijeet-Ashapure/Linconstore-todolist.git
+cd Linconstore-todolist
 npx rimraf ./.git
 ```
 
@@ -16,14 +16,6 @@ Install the dependencies:
 
 ```bash
 yarn install
-```
-
-Set the environment variables:
-
-```bash
-cp .env.example .env
-
-# open .env and modify the environment variables (if needed)
 ```
 
 ## Commands
@@ -141,9 +133,9 @@ List of available routes:
 `POST /v1/auth/verify-email` - verify email
 
 **User routes**:\
-`POST /v1/tasks` - create a user\
-`GET /v1/tasks` - get all tasks\
-`GET /v1/tasks/:userId` - get user\
-`PATCH /v1/tasks/:userId` - update user\
-`DELETE /v1/tasks/:userId` - delete user
+`POST /v1/users` - create a user\
+`GET /v1/users` - get all users\
+`GET /v1/users/:userId` - get user\
+`PATCH /v1/users/:userId` - update user\
+`DELETE /v1/users/:userId` - delete user
 
