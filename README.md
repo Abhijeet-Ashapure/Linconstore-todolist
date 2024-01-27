@@ -132,10 +132,10 @@ List of available routes:
 `POST /v1/auth/send-verification-email` - send verification email\
 `POST /v1/auth/verify-email` - verify email
 
-**User routes**:\
-`POST /v1/users` - create a user\
-`GET /v1/users` - get all users\
-`GET /v1/users/:userId` - get user\
-`PATCH /v1/users/:userId` - update user\
-`DELETE /v1/users/:userId` - delete user
+**Task routes**:\
+`POST /v1/tasks` - create a task\
+`GET /v1/tasks` - get all tasks\
+`GET /v1/tasks/:taskId` - get task\
+`PATCH /v1/tasks/:taskId` - update task\
+`DELETE /v1/tasks/:taskId` - delete task
 
